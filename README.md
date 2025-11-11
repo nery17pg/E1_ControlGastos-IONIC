@@ -20,9 +20,11 @@ Se desarrolló una **aplicación móvil híbrida** utilizando **Ionic Framework 
 
 ## 🧩 Arquitectura de la Aplicación
 La aplicación está construida bajo una **arquitectura modular basada en componentes**, con la siguiente estructura:
+```bash
 src/app/
-├── pages/  # Páginas principales
-├── services/ # Lógica de negocio
-├── models/  # Modelos de datos
-├── guards/  # Protección de rutas
-└── components/ # Componentes reutilizables
+├── pages/        # Páginas principales
+├── services/     # Lógica de negocio
+├── models/       # Modelos de datos
+├── guards/       # Protección de rutas
+└── components/   # Componentes reutilizables
+
