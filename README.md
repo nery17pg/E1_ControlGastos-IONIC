@@ -1,30 +1,39 @@
-# 📱 Aplicación de Control de Gastos Personales
+# Personal Expense Tracker
 
-## 🎯 Objetivo del Proyecto
-Se desarrolló una **aplicación móvil híbrida** utilizando **Ionic Framework 7 con Angular**, destinada al **control y gestión de gastos personales**, permitiendo a los usuarios:
+A hybrid mobile application developed with Ionic 7 and Angular for managing personal finances and tracking income and expenses.
 
-- Registrar **ingresos y egresos**  
-- Establecer **presupuestos**  
-- Visualizar **reportes financieros interactivos** mediante gráficos  
+## Description
 
----
+This project provides a tool for managing personal finances by allowing users to record income and expenses, set budgets, and monitor their financial activity through interactive reports and charts.
 
-## ⚙️ Tecnologías Implementadas
-- **Ionic Framework 7 con Angular**  
-- **TypeScript** (lógica de negocio)  
-- **Ionic Components** (interfaz de usuario)  
-- **Capacitor** (funcionalidades nativas)  
-- **Chart.js** (gráficos y visualizaciones)
+The application focuses on practicing modular application development, component-based architecture, and data visualization.
 
----
+## Technologies
 
-## 🧩 Arquitectura de la Aplicación
-La aplicación está construida bajo una **arquitectura modular basada en componentes**, con la siguiente estructura:
-```bash
+- Ionic Framework 7
+- Angular
+- TypeScript
+- Capacitor
+- Chart.js
+
+## Features
+
+- **Income and Expense Tracking:** Register and manage personal income and expenses.
+- **Budget Management:** Set and monitor spending budgets.
+- **Financial Reports:** Visualize financial activity through interactive charts.
+- **Data Visualization:** Display financial information using Chart.js.
+
+## Project Structure
+
+```text
 src/app/
-├── pages/        # Páginas principales
-├── services/     # Lógica de negocio
-├── models/       # Modelos de datos
-├── guards/       # Protección de rutas
-└── components/   # Componentes reutilizables
+├── pages/        # Main application pages
+├── services/     # Business logic
+├── models/       # Data models
+├── guards/       # Route protection
+└── components/   # Reusable components
+```
 
+## License
+
+MIT
